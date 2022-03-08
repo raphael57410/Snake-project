@@ -1,2 +1,9 @@
 # Snake-project
-Snake Project
+##Snake Project
+
+### NAME:
+Youness LANDROIT
+Raphael Demmerle
+Tristan Schwartz
+Sofyanne Badir
+
