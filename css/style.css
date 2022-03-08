@@ -1,0 +1,10 @@
+.case {
+  border: 1px solid black;
+  height: 30px;
+  width: calc(100% * (1 / 10) - 10px - 1px);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
