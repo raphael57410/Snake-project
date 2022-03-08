@@ -5,5 +5,18 @@ class Player {
     this.position = 1;
   }
 
-  updatePosition;
+  updatePosition(dice) {
+    this.position += dice;
+    document.getElementById(
+      `${this.name + this.id}`
+    ).innerHTML = `Position actuelle : Case ${this.position}`;
+  }
+
+  displayPlayer() {}
+
+  rollDice() {
+    return Math.floor(Math.random() * 6) + 1;
+  }
 }
+
+export default Player;

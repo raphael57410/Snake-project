@@ -7,8 +7,19 @@
   </header>
 
   <body>
-    <div class="app"></div>
-
-    <script type="module" src="script.js"></script>
+    <div class="numberPlayer">
+      <label for="numberPlayer">Choose number of player</label>
+      <select name="numberPlayer" id="numberPlayer">
+        <option value="">Please choose an option</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+    </div>
+    <div class="playerName" id="playerName"></div>
+    <div>
+      <button id="startGame">Start the game</button>
+    </div>
+    <script type="module" src="./script/main.js"></script>
   </body>
 </html>
