@@ -2,8 +2,8 @@
 ##Snake Project
 
 ### NAME:
-Youness LANDROIT
-Raphael Demmerle
-Tristan Schwartz
-Sofyanne Badir
+- Youness LANDROIT  
+- Raphael Demmerle  
+- Tristan Schwartz  
+- Sofyanne Badir  
 
