@@ -1,18 +1,13 @@
-class Game extends Player {
+class Game {
   constructor(numOfPlayer) {
     this.numOfPlayer = numOfPlayer;
+    this.turn = 1;
+  }
+  rollDice() {
+    return Math.floor(Math.random() * 6) + 1;
   }
 
-  displayPlayers() {
-    for (let i = 1; i <= this.numOfPlayer; i++) {
-      document.getElementById("playerBloc").innerHTML += `
-            <div class="bloc_player">
-                <h2>Joueur ${i}</h2>
-                <p></p>
-                <p id="${this.name + this.number}">Position : Case ${
-        this.position
-      }</p>
-            </div>`;
-    }
-  }
+  turn() {}
 }
+
+export default Game;
