@@ -1,4 +1,5 @@
 import Game from "./game.js";
+import generateMap from "./map.js";
 import Player from "./player.js";
 
 const numberPlayer = document.getElementById("numberPlayer");
@@ -56,4 +57,5 @@ startButton.addEventListener("click", function () {
   const party = new Game(playerNumber);
   startingPage.hidden = true;
   diceBloc.hidden = false;
+  generateMap();
 });
